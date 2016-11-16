@@ -1,0 +1,172 @@
+body {
+  background: #eee; }
+
+input, select {
+  border-radius: 0 !important;
+  background: rgba(211, 218, 225, 0.07) !important; }
+
+.btn {
+  border-radius: 0 !important; }
+
+.container-custom {
+  background: #f2f2f2;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2); }
+
+.statistics.fixed {
+  position: fixed; }
+
+.ssss {
+  height: 1500px;
+  position: relative; }
+
+header {
+  background: #313c44;
+  height: 50px;
+  line-height: 50px; }
+  header .navbar {
+    border: 0; }
+  header .navbar-brand {
+    color: #bbb;
+    height: 50px;
+    padding: 0 15px;
+    line-height: 50px;
+    transition: color 0.5s; }
+    header .navbar-brand:hover {
+      color: #eee; }
+  header .logout a {
+    color: #bbb;
+    transition: color 0.5s; }
+    header .logout a:hover {
+      background: transparent;
+      color: #eee; }
+  header .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0; }
+
+.left-section {
+  margin-bottom: 20px;
+  border-right: 1px solid #ddd; }
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px; }
+
+.title {
+  margin: 0;
+  margin-bottom: 10px; }
+
+.statistics {
+  position: absolute;
+  top: 0; }
+  .statistics .title {
+    margin-top: 15px; }
+  .statistics .subtitle {
+    display: inline-block; }
+  .statistics .last-months-amount .month-amount label {
+    width: 100px; }
+
+.top-bar {
+  margin-bottom: 10px;
+  height: 30px;
+  position: relative;
+  text-align: center; }
+  .top-bar .search {
+    width: 40%;
+    min-width: 150px;
+    height: 30px;
+    line-height: 30px; }
+  .top-bar form {
+    position: absolute;
+    right: 0;
+    top: 0; }
+    .top-bar form .form-group {
+      margin: 0; }
+    .top-bar form label {
+      height: 30px;
+      line-height: 30px;
+      margin: 0; }
+    .top-bar form select {
+      line-height: 30px;
+      height: 30px;
+      padding: 3px 12px;
+      border-radius: 0; }
+    .top-bar form .btn {
+      height: 30px;
+      line-height: 30px;
+      padding: 0 10px; }
+
+.new-post {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px; }
+
+.posts article.post {
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  transition: background-color 0.5s;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+  height: 50px; }
+  .posts article.post:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4); }
+  .posts article.post .title {
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 0; }
+  .posts article.post .amount {
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 20px; }
+  .posts article.post .date {
+    display: block;
+    font-style: italic;
+    color: #999; }
+  .posts article.post .tools {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: -12px;
+    height: 50px;
+    width: 24px; }
+    .posts article.post .tools .tool-wrapper {
+      height: 50%;
+      text-align: center; }
+      .posts article.post .tools .tool-wrapper i {
+        width: 17px;
+        height: 17px;
+        cursor: pointer;
+        border-radius: 50%;
+        overflow: hidden;
+        line-height: 25px;
+        font-size: 14px;
+        margin-top: 4px;
+        line-height: 17px;
+        transition: width 0.2s, height 0.2s, font-size 0.2s, margin 0.2s, line-height 0.2s, box-shadow 0.2s;
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2); }
+      .posts article.post .tools .tool-wrapper:hover i {
+        margin-top: 1px;
+        width: 23px;
+        height: 23px;
+        font-size: 17px;
+        line-height: 23px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); }
+  .posts article.post.music {
+    background: rgba(255, 32, 0, 0.07);
+    border-left: 2px solid #ff2000; }
+    .posts article.post.music .tools .tool-wrapper i {
+      background: rgba(255, 32, 0, 0.2); }
+  .posts article.post.work {
+    background: rgba(0, 153, 255, 0.07);
+    border-left: 2px solid #09f; }
+    .posts article.post.work .tools .tool-wrapper i {
+      background: rgba(0, 153, 255, 0.2); }
+  .posts article.post.other {
+    background: rgba(74, 255, 0, 0.07);
+    border-left: 2px solid #4aff00; }
+    .posts article.post.other .tools .tool-wrapper i {
+      background: rgba(74, 255, 0, 0.2); }
+
+/*# sourceMappingURL=style.css.map */
